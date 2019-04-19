@@ -4,7 +4,7 @@ var path = require("path")
 process.noDeprecation = true
 
 module.exports = {
-  entry: "./view/index.js",
+  entry: "./view/app.js",
   output: {
       path: path.join(__dirname, 'control'),
       filename: "bundle.js",
